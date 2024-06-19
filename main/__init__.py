@@ -19,14 +19,14 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 uvloop.install()
 
-ggn = "mongodb+srv://viktor55:Gagan@123@cluster0.4efvr6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# ggn = "mongodb+srv://viktor55:Gagan@123@cluster0.4efvr6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "23536615"
+API_HASH = "0731650e848c3791823e19eee62b891c"
+BOT_TOKEN = "7150858995:AAGT5b32jwN0UhvyqWddGZIF0rLDbCbvX2k"
+SESSION = "BQGqa00AR5MLd3ZMcR0v_CmH733sNiWKcQVyvsXljLbeRk0OsvhiHdwktKbDjiV6CMBANnSLXOXm-X7bJaXJVa96sNNdwKvy5Z-OFkFKuH-OqIEoWsppwT_1m1xJVP9fjGP_SLvdS2TuiTS-dRlGx_sA9Zgv9FGm8iqMtnlchH-c6WS-9qDSTpcARArGNxkEt-lv9HyfJ0rVc55Irt6aeqGpT8k3DgYID8v2B431WbdrLKLv2UtjoWRWKNbvqoiSIhnkYv_cQE3JYj35Vu9pLmxTJelEN-an09mhMaHMofdwrJMv5IIk2x20lKgN22UD01jo2QMR0NZXPiypVOWGgH5byKtz_QAAAAGrBhh3AA"
+FORCESUB = "devggn"
+AUTH = 1213231
 SUDO_USERS = []
 
 if len(AUTH) != 0:
